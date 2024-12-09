@@ -1,53 +1,42 @@
-# Concepts of Computer Science (COP 2500C)
+# CS1 (COP 3502) - Introduction to Computer Science
 
 ## Overview
 
-Welcome to my **Concepts of Computer Science (COP 2500C)** repository! This repository contains programming assignments that demonstrate my understanding of fundamental programming concepts. These projects cover topics such as variables, loops, functions, string manipulation, and problem-solving techniques. Each assignment reflects the foundational skills I developed during this course.
+Welcome to my **CS1 (COP 3502)** repository! This collection showcases my journey in learning foundational computer science concepts such as problem-solving techniques, abstract data types, recursion, and algorithm analysis. All programs are implemented in C, reflecting the course's focus on low-level programming and efficient algorithm design.
 
 ---
 
 ## Topics and Learning Outcomes
 
 ### Topics Covered:
-- Variables and Data Types
-- Arithmetic Operations
-- Conditional Statements
-- Loops (`for` and `while`)
-- Functions and Modular Programming
-- Arrays, Lists, and Dictionaries
-- String Manipulation
-- Persistent Storage (File Handling)
-- Problem-Solving Techniques
-- Visualization with Turtle Graphics
+- Problem Solving Techniques
+- Order Analysis and Big-O Notation
+- Abstract Data Types (e.g., Stacks, Queues)
+- Recursion and Recursive Algorithms
+- Data Structures (Linked Lists, Trees, Hash Tables)
+- Searching and Sorting Algorithms
+- Dynamic Memory Allocation in C
 
 ### Skills Gained:
-- Writing clean, efficient, and modular code.
-- Solving computational problems using logical and mathematical reasoning.
-- Creating visualizations and graphical outputs with Turtle graphics.
-- Manipulating strings, lists, and dictionaries for data management.
-- Designing interactive programs based on user input.
+- Writing and analyzing algorithms for performance and correctness.
+- Implementing fundamental data structures and algorithms in C.
+- Leveraging recursion for problem-solving.
+- Applying dynamic memory techniques for optimized program performance.
+- Understanding and applying Big-O notation for algorithm analysis.
 
 ---
 
 ## Repository Contents
 
-| File Name            | Problem Description                                                                                   | Topics                | Techniques Used         |
-|----------------------|-------------------------------------------------------------------------------------------------------|-----------------------|-------------------------|
-| `vehicle.py`         | Draws a truck using Turtle graphics with custom colors and shapes.                                    | Loops, Functions      | Turtle Graphics         |
-| `triangle.py`        | Calculates the hypotenuse, perimeter, area, and angles of a triangle based on user input.             | Math, Functions       | Input/Output            |
-| `quad.py`            | Solves for the roots of a quadratic equation using user-provided coefficients.                        | Math, Conditionals    | Input Validation        |
-| `quadplotter.py`     | Displays a parabola and calculates `y` values for specific `x` values.                                | Loops, Functions      | Modular Programming     |
-| `project.py`         | Tracks and organizes "Small Monsters" using lists and functions.                                      | Lists, Functions      | Data Management         |
-| `oddeven.py`         | A guessing game where the user guesses if a number is odd or even.                                    | Conditionals          | Random Module           |
-| `movies.py`          | Calculates the total cost of movie tickets based on group size and pricing rules.                     | Conditionals          | Math, Input/Output      |
-| `monstermap.py`      | Displays a 10x8 grid of circles with varying sizes based on user inputs.                              | Nested Loops          | Turtle Graphics         |
-| `mathfun.py`         | Calculates triangle properties such as side lengths and angles using trigonometric functions.         | Math, Functions       | Modular Programming     |
-| `lineplotter.py`     | Plots an equation line and calculates `y` values for specific `x` values.                             | Math, Loops           | Modular Programming     |
-| `ksmcacard.py`       | Prints user details, including a favorite elemental type and a hobby, formatted as a card.            | Strings, Output       | Input/Output            |
-| `lakearea.py`        | Calculates the area of a half-circle lake based on the user-input radius.                             | Math, Input           | Modular Programming     |
-| `courselist.py`      | Creates and manages a course list based on user input, supporting add/remove/sort actions.            | Lists, Functions      | Data Management         |
-| `courselist2.py`     | Improved course list management program with enhanced input and formatting.                           | Lists, Functions      | Input Validation        |
-| `autopolygonator.py` | Creates polygons with Turtle graphics based on user input for sides and total length.                 | Loops, Functions      | Turtle Graphics         |
+| File Name  | Problem Description                                                                                              | Topics                | Techniques Used       |
+|------------|------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
+| `asn0.c`   | Counts the number of new characters needed for a new sign message, comparing two strings.                        | Strings               | Arrays, Loops         |
+| `asn1.c`   | Implements a theater reservation system using dynamic memory allocation.                                         | Dynamic Memory, Structs | Input Validation      |
+| `asn2.c`   | Implements a queue system for a multi-line ticket booth simulation.                                              | Queues, Structs       | Linked Lists, Dynamic Memory |
+| `asn3a.c`  | Generates and checks valid seating permutations for a group with restrictions.                                   | Recursion             | Permutations          |
+| `asn3b.c`  | Finds the first valid seating arrangement for a group based on restrictions.                                     | Recursion, Arrays     | Combinatorics         |
+| `asn4.c`   | Uses sorting techniques to calculate optimal projection angles in a theater.                                     | Sorting Algorithms    | Merge Sort            |
+| `asn5.c`   | Implements a loyalty points program using a binary search tree.                                                 | Binary Trees          | Recursive Traversals  |
+| `asn6.c`   | Implements a hash table system for inventory management in a store.                                             | Hash Tables           | Linked Lists, Hashing |
 
 ---
-
